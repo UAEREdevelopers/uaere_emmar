@@ -20,8 +20,8 @@
 
     <!-- Favicons -->
 
-    <link rel="shortcut icon" href="{{ asset('images/favicon/dream-favicon.png') }}" />
-    <link rel="apple-touch-icon" href="{{ asset('images/favicon/dream-favicon.png') }}" />
+    <link rel="shortcut icon" href="{{ asset('images/favicon/dream-favicon.webp') }}" />
+    <link rel="apple-touch-icon" href="{{ asset('images/favicon/dream-favicon.webp') }}" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Raleway:300,400,500,600,700,800,900|Roboto:300,400,500,700" rel="stylesheet">

@@ -28,7 +28,7 @@
                     <div class="menu-collapse-after-effect"></div>
                     <div class="logo">
                         <a href="index.html">
-                            <img src="{{ asset('images/logo/logo.png') }}" alt="Logo">
+                            <img src="{{ asset('images/logo/logo.webp') }}" alt="Logo">
                         </a>
                     </div><!-- /.logo -->
                 </div><!-- /.main-menu-deputy -->

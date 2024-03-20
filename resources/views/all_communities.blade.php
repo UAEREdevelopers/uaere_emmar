@@ -5,6 +5,6 @@
 
 	@include('components.properties_blog')
 
-	@include('components.properties_pagination')
+	
    
 @endsection

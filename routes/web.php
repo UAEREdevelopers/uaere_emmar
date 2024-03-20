@@ -29,6 +29,8 @@ Route::middleware(['auth', 'checksuperadmin'])->group(function () {
     Route::prefix('/admin')->group(function () {
         Route::get('/dashboard', App\Http\Livewire\Admins\Dashboard::class)->name('admin_dashboard');
         Route::get('settings', App\Http\Livewire\Admins\Settings::class)->name('admin_settings');
+        Route::get('communities', App\Http\Livewire\Admins\Community::class)->name('admin_communities');
+
         
     });
 });

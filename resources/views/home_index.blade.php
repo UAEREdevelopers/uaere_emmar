@@ -13,8 +13,5 @@
 
    @include('components.showcase')
 
-   @include('components.specials')
-
-   @include('components.home_blogs')
 
 @endsection

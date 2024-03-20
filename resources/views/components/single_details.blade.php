@@ -6,41 +6,45 @@
 						<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 							<article class="awesome-content">
 								<div class="awesome-header stylist-bottom-right">
-									<h3>Our Awesome Property</h3>
-									<p><i class="fa fa-map-marker"></i> 530, Khan A Sabur Road, Khulna, Bangladesh</p>
+									<h3>DUBAI HILLS ESTATE</h3>
+									<p><i class="fa fa-map-marker"></i> DUBAI HILLS ESTATE</p>
 								</div>
 								<div class="awesome-footer">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nstrud exercitation ullamco laboris nisi ut aliquip</p>
+									<p>Open the door to the house of your dreams. Be the person you were always meant to be. A voyage into the Emerald Hills’ plot collection at DUBAI HILLS ESTATE offers you an unprecedented opportunity to build your one-of-a-kind home fitted to the highest standards—enveloped by the 18-hole championship golf course of Dubai Hills Club.</p>
 									<div class="awesome-btn">
-										<a href="#" class="dream-btn">Book Now</a>
+										<a href="#" class="dream-btn">Show Interest</a>
 									</div>
 								</div>
 							</article> <!-- /.awesome-content -->
 						</div> <!-- /.col- -->
 						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 							<div class="total-package shadow-bottom-items">
-								<strong>$12000</strong>
+								<strong>40/60 Payment</strong>
 								<div class="price-list">
 									<ul>
 										<li>
-											<span>Total area</span>
-											<span>4500m</span>
+											<span>Starting Price</span>
+											<span>3m</span>
 										</li>
 										<li>
-											<span>Total rooms</span>
-											<span>6</span>
+											<span>Size</span>
+											<span>7,154 sqft</span>
 										</li>
 										<li>
 											<span>Bed rooms</span>
-											<span>3</span>
+											<span>3-4</span>
 										</li>
 										<li>
 											<span>Bath room</span>
-											<span>2</span>
+											<span>2-3</span>
 										</li>
 										<li>
-											<span>Parking car</span>
-											<span>2</span>
+											<span>HandOver</span>
+											<span>2027</span>
+										</li>
+										<li>
+											<span>Type</span>
+											<span>Apartment</span>
 										</li>
 									</ul>
 								</div>
@@ -53,6 +57,10 @@
 						</div> <!-- /.col -->
 					</div> <!-- /.row -->  
 				</div> <!-- /.awesome-items -->
+
+			
+
+
 			</div> <!-- /.container -->
 		</div> <!-- /.properties-things -->
 		<!-- /AWESOME PROPERTIES AREA END -->

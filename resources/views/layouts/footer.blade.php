@@ -8,7 +8,7 @@
                                 <div class="single-widget">
                                     <div class="widget-heading info-heading">
                                         <a href="index.html" class="logo-footer">
-                                            <img src="{{ asset('images/logo/logo-footer.png') }}" alt="LogoFooter">
+                                            <img src="{{ asset('images/logo/logo-footer.webp') }}" alt="LogoFooter">
                                         </a>
                                     </div>
                                     <div class="widget-info">
@@ -19,15 +19,15 @@
                             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                                 <div class="single-widget">
                                     <div class="widget-heading">
-                                        <h3>Important Links</h3>
+                                        <h3>Communities</h3>
                                     </div>
                                     <div class="widget-link">
                                         <ul>
-                                            <li><a href="#">Themeforest</a></li>
-                                            <li><a href="#">Videohive</a></li>
-                                            <li><a href="#">Graphicriver</a></li>
-                                            <li><a href="#">Audio Jungle</a></li>
-                                            <li><a href="#">Photodune</a></li>
+                                            <li><a href="#">Dubai Hills</a></li>
+                                            <li><a href="#">Dubai Harbour</a></li>
+                                            <li><a href="#">Arabian creek Town</a></li>
+                                            <li><a href="#">Valley</a></li>
+                                            <li><a href="#">Arabian Ranches</a></li>
                                         </ul>
                                     </div> <!-- /.widget-link -->
                                 </div> <!-- /.single-widget -->

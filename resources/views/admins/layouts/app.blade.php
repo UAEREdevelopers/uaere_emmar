@@ -37,6 +37,10 @@
                 <li>
                     <a href="{{ route('admin_settings') }}"><i class="fas fa-cog"></i>Settings</a>
                 </li>
+
+                <li>
+                    <a href="{{ route('admin_communities') }}"><i class="fas fa-cog"></i>Communities</a>
+                </li>
             </ul>
         </nav>
         <div id="body" class="active">
