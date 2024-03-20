@@ -60,6 +60,17 @@ a:focus {
     color: #50514f;
 }
 
+.fap-fap a, 
+.fap-fap a:hover, 
+.fap-fap a:focus {
+    text-decoration: none;
+    outline: none;
+    color: #72d510;
+    font-size: 21px;
+    display: flex;
+
+}
+
 ul, li {
     margin: 0;
     padding: 0;
@@ -83,8 +94,8 @@ ul, li {
     margin-left: 0;
 }
 .section-heading {
-    margin-top: 80px;
-    margin-bottom: 70px;
+    /*margin-top: 80px;
+    margin-bottom: 70px;*/
     text-align: center;
 }
 /*if section background-color white*/
@@ -2506,7 +2517,7 @@ ul, li {
 .post-about span {
     display: inline-block;
     padding-right: 10px;
-    line-height: 1.7;
+    line-height: 0.8;
 }
 .post-about span:last-child {
     padding-right: 0;
@@ -4224,4 +4235,12 @@ ul, li {
 
 .home-input{
     background-color: #ffffff !important;
+}
+
+
+
+.pay_plan{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Droid Sans';
 }
