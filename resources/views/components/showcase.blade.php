@@ -11,50 +11,38 @@
 				<div id="showcase-main-thumb-slider-section" class="wow zoomIn">
 					<!-- Showcase Slider Main -->
 					<div id="showcase-main-area-slider">
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
+						 <?php
+						 	foreach ($showcases as $showcase) {
+						 		$path = 'images/slider/showcase/'.$showcase;	
+						 ?>
+						 	<div class="items">
+								<div class="img-pot" data-bg-img="{{ asset($path) }}"></div>
+							</div>
+						 <?php
+						 	}
+						 ?>
+
+
+						
+						
 					</div> <!-- /#showcase-main-area-slider -->
 					<!-- Showcase Slider Thumbnail -->
 					<div id="showcase-thumb-slider">
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
-						<div class="items">
-							<div class="img-pot" data-bg-img="{{ asset('images/slider/showcase/1.png') }}"></div>
-						</div>
+						<?php
+						 	foreach ($showcases as $showcase) {
+						 		$path = 'images/slider/showcase/'.$showcase;	
+						?>
+							<div class="items">
+								<div class="img-pot" data-bg-img="{{ asset($path) }}"></div>
+							</div>
+						<?php
+						 	}
+						 ?>
+						
+						
 					</div> <!-- /#showcase-thumb-slider -->
 				</div> <!-- /#showcase-main-thumb-slider-section --> 
-				<div class="showcase-btn">
-					<a href="#" class="dream-btn">View Gallery</a>
-				</div>
+				
 			</div> <!-- /.container -->
 		</section> <!-- /.showcase-feature -->
 		<!-- /SHOWCASE FEATURE AREA END -->

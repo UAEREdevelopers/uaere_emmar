@@ -5,13 +5,17 @@
 
    @include('components.renewal')
 
+   @include('components.showcase')
+
    @include('components.room_feature')
 
-   @include('components.team')
+   
 
    @include('components.testimonials')
 
-   @include('components.showcase')
+   @include('components.team')
+
+  
 
 
 @endsection

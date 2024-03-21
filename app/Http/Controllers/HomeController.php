@@ -8,7 +8,26 @@ class HomeController extends Controller
 {
     public function homepage()
     {
-        return view("home_index");
+        $showcases  = ['1.jpg','2.jpg','3.jpg','4.jpg'];
+
+
+        $teams = array();
+        $teamName = ['Vijdhan','Regina','Saad','Zahid'];
+        $teamImages = ['1.webp','2.webp','3.webp','4.webp'];
+        foreach ($teamName as $key => $value) {
+            
+            $teams[$key]["person_name"] = $teamName[$key];
+            $teams[$key]["person_image"] = $teamImages[$key];
+
+        }
+        
+        
+
+        return view("home_index",[
+            'showcases'=> $showcases,
+            'teams'=> $teams,
+            
+        ]);
     }
 
     public function about_us()

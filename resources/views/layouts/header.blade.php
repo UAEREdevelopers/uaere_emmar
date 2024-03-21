@@ -46,7 +46,10 @@
                             </ul> <!-- /.sub-nav -->
                         </li>
                         <li><a href="{{route('about_us')}}">About Us</a></li>
+                        <li><a href="{{route('contact_us')}}">Blog</a></li>
                         <li><a href="{{route('contact_us')}}">Contact Us</a></li>
+                        <li><button class="dream-btn">Enquire Now</button></li>
+
                         
                     </ul><!-- /.main-nav -->
 

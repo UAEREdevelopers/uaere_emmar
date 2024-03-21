@@ -90,27 +90,31 @@ class Community extends Component
         if (!$this->photo) {
             return null;
         }
-        $imag   = ImageManagerStatic::make($this->photo)->encode('jpg');
-        $name  = Str::random() . '.jpg';
+        $imag   = ImageManagerStatic::make($this->photo)->encode('webp');
+        $name  = Str::random() . '.webp';
         Storage::disk('public')->put($name, $imag);
         return $name;
     }
 
-     public function edit($id)
+    public function edit($id)
     {
         $communities = communities::findOrFail($id);
         $this->edit_community_id = $id;
 
         $this->name = $communities->name;
-        $this->email = $communities->email;
-        $this->address = $communities->address;
+        $this->tag_line = $communities->tag_line;
+        $this->tag_desc = $communities->tag_desc;
+        
+        /*$this->address = $communities->address;
         $this->phone = $communities->phone;
-        $this->qualification = $communities->qualification;
+        $this->qualification = $communities->qualification;*/
         $this->edit_photo = $communities->photo_path;
-        $this->position = $communities->position;
+        
 
-        $this->button_text="Update nurse";
+        $this->button_text="Update Community";
     }
+
+
     public function update($id)
     {
         $this->validate([
@@ -152,18 +156,18 @@ class Community extends Component
         $this->registered="";
         $this->position="";
 
-        session()->flash('message', 'Nurse Updated Successfully.');
+        session()->flash('message', 'Community Updated Successfully.');
 
-        $this->button_text = "Add New Nurse";
+        $this->button_text = "Add New Community";
 
-}
+    }
 
-     public function delete($id)
+    public function delete($id)
     {
         $communities = communities::find($id);
         Storage::disk('public')->delete($communities->photo_path);
         $communities->delete();
-        session()->flash('message', 'nurse Deleted Successfully.');
+        session()->flash('message', 'Community Deleted Successfully.');
     }
 
 

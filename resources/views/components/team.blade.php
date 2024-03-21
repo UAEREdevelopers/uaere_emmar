@@ -9,69 +9,41 @@
 					</div>
 				</div> <!-- /.section-heading -->
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-						<div class="team-members">
-							<img src="{{ asset('images/team/1.webp') }}" alt="Team Member">
-							<div class="member-name">
-								<h3>Vijdan Mohammed</h3>
-							</div><!-- /.member-name -->
-							<div class="member-hover">
-								<div class="member-info">
-									<h3>Vijdan Mohammed</h3>
-								
-									<div class="member-social">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div><!-- /.member-hover -->
-						</div> <!-- /.team-members -->
-					</div> <!-- /.col -->
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-						<div class="team-members">
-							<img src="{{ asset('images/team/2.webp') }}" alt="Team Member">
-							<div class="member-name">
-								<h3>Regina </h3>
-							</div><!-- /.member-name -->
-							<div class="member-hover">
-								<div class="member-info">
-									<h3>Regina </h3>
-								
-									<div class="member-social">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div><!-- /.member-hover -->
-						</div> <!-- /.team-members -->
-					</div> <!-- /.col -->
-					<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-						<div class="team-members">
-							<img src="{{ asset('images/team/3.webp') }}" alt="Team Member">
-							<div class="member-name">
-								<h3>Saad Yonous Khan</h3>
-							</div><!-- /.member-name -->
-							<div class="member-hover">
-								<div class="member-info">
-									<h3>Saad Yonous Khan</h3>
+
+					<?php
+					
+					 	foreach ($teams as $team) {
+					 		
+					 		$path = 'images/team/'.$team['person_image'];	
+					?>
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+							<div class="team-members">
+								<img src="{{ $path }}" alt="Team Member">
+								<div class="member-name">
+									<h3>{{$team["person_name"]}}</h3>
+								</div><!-- /.member-name -->
+								<div class="member-hover">
+									<div class="member-info">
+										<h3>{{$team["person_name"]}}</h3>
 									
-									<div class="member-social">
-										<ul>
-											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-										</ul>
+										<div class="member-social">
+											<ul>
+												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+											</ul>
+										</div>
 									</div>
-								</div>
-							</div><!-- /.member-hover -->
-						</div> <!-- /.team-members -->
-					</div> <!-- /.col -->
+								</div><!-- /.member-hover -->
+							</div> <!-- /.team-members -->
+						</div> <!-- /.col -->
+					<?php
+					 	}
+					?>
+
+
+					
+					
 					
 				</div><!-- row -->
 			</div><!-- container -->
