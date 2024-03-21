@@ -27,7 +27,7 @@
                     <div class="menu-when-collapse"></div>
                     <div class="menu-collapse-after-effect"></div>
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="{{route('homepage')}}">
                             <img src="{{ asset('images/logo/logo.webp') }}" alt="Logo">
                         </a>
                     </div><!-- /.logo -->

@@ -40,7 +40,7 @@
     
     // Dream Type Style
      $(".typed-from-js").typed({
-        strings: ["Dream", "Edifice", "Nest"],
+        strings: ["Find Your Home", "Expolre Communities", "Get Notified"],
         cursorChar: " ",
         typeSpeed: 100,
         loop: true,

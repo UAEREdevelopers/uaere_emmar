@@ -12,7 +12,7 @@
 								<div class="awesome-footer">
 									<p>Open the door to the house of your dreams. Be the person you were always meant to be. A voyage into the Emerald Hills’ plot collection at DUBAI HILLS ESTATE offers you an unprecedented opportunity to build your one-of-a-kind home fitted to the highest standards—enveloped by the 18-hole championship golf course of Dubai Hills Club.</p>
 									<div class="awesome-btn">
-										<a href="#" class="dream-btn">Show Interest</a>
+										<button class="dream-btn" onclick="showModal()">Show Interest</button>
 									</div>
 								</div>
 							</article> <!-- /.awesome-content -->
@@ -64,3 +64,13 @@
 			</div> <!-- /.container -->
 		</div> <!-- /.properties-things -->
 		<!-- /AWESOME PROPERTIES AREA END -->
+
+
+		@include('components.contact_modal')
+
+
+		<script>
+			function showModal(){
+				$("#contactModal").modal();
+			}
+		</script>

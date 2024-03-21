@@ -1,5 +1,5 @@
 <!-- TESTIMONIAL AREA START -->
-		<section class="testimonial">
+		<section class="testimonial" style="background-image: url('{{ asset("images/bg/testimonial-bg.jpg") }}');">
 			<div class="bg-img-over-effect"></div>
 			<div class="container">
 				<div class="section-heading if-bg-colorful">

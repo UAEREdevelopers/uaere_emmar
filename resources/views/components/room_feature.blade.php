@@ -1,5 +1,5 @@
 <!-- ROOM FEATURE AREA START -->
-		<section class="room-feature">
+		<section class="room-feature" style="background-image: url('{{ asset("images/bg/room-feature-bg.jpg") }}');">
 			<div class="bg-img-over-effect"></div>
 			<div class="container">	
 				<div class="section-heading if-bg-colorful">

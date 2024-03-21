@@ -3,7 +3,7 @@
 			<div class="carousel slide">
 				<div class="carousel-inner">
 
-					<div class="item active item-bg-1">
+					<div class="item active" style="background-image: url('{{ asset("images/slider/1.jpeg") }}');">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
@@ -14,7 +14,7 @@
 											</div>
 										</div>
 										<div class="mian-heading">
-											<h2>Find Your <span class="typed-from-js"></span></h2>
+											<h2>Hi,<span class="typed-from-js"></span></h2>
 											<div class="main-title">
 												<h3>With Us</h3>
 												<strong></strong> <!-- Use for heading after effect -->
@@ -25,7 +25,7 @@
 							</div>
 						</div>
 					</div> <!--/.item--> 
-					<div class="item item-bg-2">
+					<div class="item" style="background-image: url('{{ asset("images/slider/2.jpg") }}');">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
@@ -36,7 +36,7 @@
 											</div>
 										</div>
 										<div class="mian-heading">
-											<h2>Find Your <span class="typed-from-js"></span></h2>
+											<h2>Hi,<span class="typed-from-js"></span></h2>
 											<div class="main-title">
 												<h3>With Us</h3>
 												<strong></strong> <!-- Use for heading after effect -->
@@ -47,7 +47,7 @@
 							</div>
 						</div>
 					</div> <!--/.item--> 
-					<div class="item item-bg-3">
+					<div class="item" style="background-image: url('{{ asset("images/slider/3.jpg") }}');">
 						<div class="container">
 							<div class="row">
 								<div class="col-sm-12">
@@ -58,7 +58,7 @@
 											</div>
 										</div>
 										<div class="mian-heading">
-											<h2>Find Your <span class="typed-from-js"></span></h2>
+											<h2>Hi, <span class="typed-from-js"></span></h2>
 											<div class="main-title">
 												<h3>With Us</h3>
 												<strong></strong> <!-- Use for heading after effect -->

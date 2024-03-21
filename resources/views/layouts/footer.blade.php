@@ -1,5 +1,5 @@
 <!-- FOOTER AREA START -->
-        <footer class="footer" id="footer">
+        <footer class="footer" id="footer" style="background-image: url('{{ asset("images/bg/testimonial-bg.jpg") }}');">
             <div class="footer-widget-area">
                 <div class="container"> 
                     <div class="footer-widgets">

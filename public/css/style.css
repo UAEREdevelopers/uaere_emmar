@@ -1002,7 +1002,7 @@ ul, li {
     -moz-animation:    typed 2s infinite;
     -o-animation:      typed 2s infinite;
     animation:         typed 2s infinite;
-    color: #4d4d4f;
+    color: #ffffff;
 }
 @keyframes typed {
     0% { 
@@ -1073,7 +1073,7 @@ ul, li {
     top: 0;
     bottom: 0;
     z-index: -10;
-    background: rgba(21, 16, 3, 0.8);
+    background: rgba(0, 0, 0, 0.40);
 }
 .main-slider .carousel .item:first-child {
     top: auto;
