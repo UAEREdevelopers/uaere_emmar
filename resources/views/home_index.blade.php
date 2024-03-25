@@ -13,7 +13,6 @@
 
    @include('components.testimonials')
 
-   @include('components.team')
 
   
 

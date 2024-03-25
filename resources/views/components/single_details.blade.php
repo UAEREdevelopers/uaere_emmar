@@ -71,6 +71,6 @@
 
 		<script>
 			function showModal(){
-				$("#contactModal").modal();
+				modal.style.display = "block";
 			}
 		</script>

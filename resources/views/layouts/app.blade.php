@@ -48,6 +48,8 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('css/header-menu-responsive.css') }}" />
     <link rel="stylesheet" type="text/css" href="{{ asset('css/responsive.css') }}" />
 
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/dev_styles.css') }}" />
+
     @livewireStyles
 
 </head>
@@ -112,6 +114,8 @@
     <!-- Custom/Main Script here -->
     <script type="text/javascript" src="{{ asset('js/menu.js') }}"></script>
     <script type="text/javascript" src="{{ asset('js/custom.js') }}"></script>
+
+    
 </body>
 
 </html>
